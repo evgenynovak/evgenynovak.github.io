@@ -8,15 +8,17 @@
           <div class="page__containter">
               <header class="header">
                 <div class="header__logo logo">
-                  <img src="img/logo/logo.gif" class="logo__img" alt="">
+                  <img src="img/logo/logo.gif" class="logo__img" alt="logo">
                 </div>
                 <div class="header__block">
                   <nav class="header__nav nav">
-                    <a href="#" class="nav__link nav__link_active">Home</a>
-                    <a href="#" class="nav__link">About</a>
-                    <a href="#" class="nav__link">Portfolio</a>
-                    <a href="#" class="nav__link">Blog</a>
-                    <a href="#" class="nav__link">Contact</a>
+                    <ul class="nav__list">
+                      <li class="nav__item"><a href="index.html" class="nav__link nav__link_active">Home</a>
+                      <li class="nav__item"><a href="#" class="nav__link">About</a>
+                      <li class="nav__item"><a href="portfolio.html" class="nav__link">Portfolio</a>
+                      <li class="nav__item"><a href="blog.html" class="nav__link">Blog</a>
+                      <li class="nav__item"><a href="#" class="nav__link">Contact</a>
+                    </ul>
                   </nav>
                   <div class="header__search search">
                     <form class="search__form">
@@ -27,150 +29,113 @@
               </header>
             </div>
             
-            <section class="banner banner_blog">
-              <h2 class="banner__heading heading heading_2">LATEST PROJECTS</h2>
-              <p class="banner__text text">We Deliver Quality</p>
+            <section class="banner">
+              <img src="img/banner/news_about_lian.jpg" class="banner__img" alt="news about lian">
+              <h2 class="banner__heading">News about lian</h2>
+              <p class="banner__text">Lates news & insights</p>
             </section> 
 
             <div class="page__containter">
-              <section class="page__main">  
-                <main class="main">
-                  <div class="main__block">
-                    <article class="main__post post"> 
-                      <div class="post__tag">
-                          <button class="button post__button">wordpress</button>
-                      </div>
-                      <div class="post__header">
-                        <h2 class="post_heading heading heading_2">I am a Blog Post Title</h2>
-                        <p class="post__autor text"><span class="icon post__icon post__icon_man"></span>by Jenn Pereira</p>
-                      </div>
-                      <div class="post__content">
-                          <p class="post__text text">
-                            Phasellus et nisl tellus. Etiam facilisis eu nisi scelerisque faucibus. Proin semper suscipit magna, 
-                            nec imperdiet lacus semper vitae. Sed hendrerit enim non justo posuere placerat eget purus mauris. Etiam 
-                            facilisis eu nisi scelerisque faucibus...
-                          </p>
-                      </div>
+              <div class="blog">
+                <section class="blog__main">  
+                <main class="blog__posts">
+                    <article class="post"> 
+                      <a href="#" class="post__tag tag">wordpress</a>
+                      <h2 class="post__heading">I am a Blog Post Title</h2>
+                      <span class="post__autor">by Jenn Pereira</span>
+                      <p class="post__text text">
+                        Phasellus et nisl tellus. Etiam facilisis eu nisi scelerisque faucibus. Proin semper suscipit magna, 
+                        nec imperdiet lacus semper vitae. Sed hendrerit enim non justo posuere placerat eget purus mauris. Etiam 
+                        facilisis eu nisi scelerisque faucibus...
+                      </p>
                       <div class="post__footer">
-                        <div class="post__date">
-                          <p class="post__date-text text"><span class="icon post__icon post__icon_date"></span>on July 19,2016</p>
-                        </div>
-                        <div class="post__button-share-like">
-                          <span class="icon post__icon post__icon_share"></span><span class="icon post__icon post__icon_like"></span>
+                        <span class="post__date">on July 19,2016</span>
+                        <div class="post__element-block">
+                          <span class="icon post__icon post__icon_share"></span>
+                          <span class="icon post__icon post__icon_like"></span>
                         </div>
                       </div>
                     </article>
 
-                    <article class="main_post post"> 
-                        <div class="post__img">
-                          <img src="img/posts/clock.jpg" class="img" alt="">  
+                    <article class="post"> 
+                      <img src="img/posts/clock.jpg" class="post__img" alt="clock">  
+                      <h2 class="post_heading">I am a Blog Post with an Awesome Image</h2>
+                      <span class="post__autor">by Jenn Pereira</span>
+                      <p class="post__text text">
+                        Proin semper suscipit magna, nec imperdiet lacus semper vitae. 
+                        Sed hendrerit enim non justo posuere placerat eget purus mauris...
+                      </p>
+                      <div class="post__footer">                 
+                        <span class="post__date">on July 19,2016</span>
+                        <div class="post__element-block">
+                          <span class="icon post__icon post__icon_share"></span>
+                          <span class="icon post__icon post__icon_like"></span>
                         </div>
-                        <div class="post__header">
-                          <h2 class="post_heading heading heading_2">I am a Blog Post with an Awesome Image</h2>
-                          <p class="post__autor text"><span class="icon post__icon post__icon_man"></span>by Jenn Pereira </p>
-                        </div>
-                        <div class="post__content">
-                            <p class="post__text text">
-                                Proin semper suscipit magna, nec imperdiet lacus semper vitae. 
-                                Sed hendrerit enim non justo posuere placerat eget purus mauris...
-                            </p>
-                        </div>
-                        <div class="post__footer">
-                          <div class="post__date">
-                            <p class="post__date-text text"><span class="icon post__icon post__icon_date"></span>on July 19,2016</p>
-                          </div>
-                          <div class="post__button-share-like">
-                            <span class="icon post__icon post__icon_share"></span><span class="icon post__icon post__icon_like"></span>
-                          </div>
-                        </div>
+                      </div>
                     </article>
 
-                    <article class="main_post post"> 
-                        <div class="post__img">
-                          <img src="img/posts/23.jpg" class="img" alt="">  
+                    <article class="post"> 
+                      <img src="img/posts/23.jpg" class="post__img" alt="bottle nomber 23">  
+                      <h2 class="post__heading">I am a Blog Post with an Awesome Image</h2>
+                      <span class="post__autor">by Jenn Pereira</span>
+                      <p class="post__text text">
+                        Proin semper suscipit magna, nec imperdiet lacus semper vitae. 
+                        Sed hendrerit enim non justo posuere placerat eget purus mauris...
+                      </p>
+                      <div class="post__footer">
+                        <span class="post__date">on July 19,2016</span>
+                        <div class="post__element-block">
+                          <span class="icon post__icon post__icon_share"></span>
+                          <span class="icon post__icon post__icon_like"></span>
                         </div>
-                        <div class="post__header">
-                          <h2 class="post_heading heading heading_2">I am a Blog Post with an Awesome Image</h2>
-                          <p class="post__autor text"><span class="icon post__icon post__icon_man"></span>by Jenn Pereira </p>
-                        </div>
-                        <div class="post__content">
-                            <p class="post__text text">
-                                Proin semper suscipit magna, nec imperdiet lacus semper vitae. 
-                                Sed hendrerit enim non justo posuere placerat eget purus mauris...
-                            </p>
-                        </div>
-                        <div class="post__footer">
-                          <div class="post__date">
-                            <p class="post__date-text text"><span class="icon post__icon post__icon_date"></span>on July 19,2016</p>
-                          </div>
-                          <div class="post__button-share-like">
-                            <span class="icon post__icon post__icon_share"></span><span class="icon post__icon post__icon_like"></span>
-                          </div>
-                        </div>
+                      </div>
                     </article>
 
-                    <article class="main__post post"> 
-                        <div class="post__video">
-                            <video class="video" src="" controls></video>
-                        </div>
+                    <article class="post">
+                      <video class="post__video" src="" controls></video>
                     </article>
 
-                    <article class="main__post post post_background_image"> 
-                        <div class="post__tag">
-                            <button class="button post__button">Image  Hover</button>
+                    <article class="post post_background-image"> 
+                      <a href="#" class="post__tag tag">Image  Hover</a>
+                      <h2 class="post__heading post__heading_color-white">I am a Blog Post Title</h2>
+                      <span class="post__autor">by Jenn Pereira</span>
+                      <p class="post__text text">
+                        Phasellus et nisl tellus. Etiam facilisis eu nisi scelerisque faucibus. Proin semper suscipit magna, 
+                        nec imperdiet lacus semper vitae. Sed hendrerit enim non justo posuere placerat eget purus mauris. Etiam 
+                        facilisis eu nisi scelerisque faucibus...
+                      </p>
+                      <div class="post__footer">
+                        <span class="post__date">on July 19,2016</span>
+                        <div class="post__element-block">
+                          <span class="icon post__icon post__icon_share"></span>
+                          <span class="icon post__icon post__icon_like"></span>
                         </div>
-                        <div class="post__header">
-                          <h2 class="post__heading heading heading_2">I am a Blog Post Title</h2>
-                          <p class="post__autor text"><span class="icon post__icon post__icon_man"></span>by Jenn Pereira</p>
-                        </div>
-                        <div class="post__content">
-                            <p class="post__text text">
-                              Phasellus et nisl tellus. Etiam facilisis eu nisi scelerisque faucibus. Proin semper suscipit magna, 
-                              nec imperdiet lacus semper vitae. Sed hendrerit enim non justo posuere placerat eget purus mauris. Etiam 
-                              facilisis eu nisi scelerisque faucibus...
-                            </p>
-                        </div>
-                        <div class="post__footer">
-                          <div class="post__date">
-                            <p class="post__date-text text"><span class="icon post__icon post__icon_date"></span>on July 19,2016</p>
-                          </div>
-                          <div class="post__button-share-like">
-                            <span class="icon post__icon post__icon_share"></span><span class="icon post__icon post__icon_like"></span>
-                          </div>
-                        </div>
+                      </div>
                     </article>
 
-                    <article class="main_post post"> 
-                        <div class="post__img">
-                          <img src="img/posts/red_matches.jpg" class="img" alt="">  
+                    <article class="post"> 
+                      <img src="img/posts/red_matches.jpg" class="post__img" alt="red matches">  
+                      <h2 class="post__heading">I am a Blog Post with an Awesome Image</h2>
+                      <span class="post__autor text">by Jenn Pereira </span>
+                      <p class="post__text text">
+                        Proin semper suscipit magna, nec imperdiet lacus semper vitae. 
+                        Sed hendrerit enim non justo posuere placerat eget purus mauris...
+                      </p>
+                      <div class="post__footer">
+                        <span class="post__date">on July 19,2016</span>
+                        <div class="post__element-block">
+                          <span class="icon post__icon post__icon_share"></span>
+                          <span class="icon post__icon post__icon_like"></span>
                         </div>
-                        <div class="post__header">
-                          <h2 class="post_heading heading heading_2">I am a Blog Post with an Awesome Image</h2>
-                          <p class="post__autor text"><span class="icon post__icon post__icon_man"></span>by Jenn Pereira </p>
-                        </div>
-                        <div class="post__content">
-                            <p class="post__text text">
-                                Proin semper suscipit magna, nec imperdiet lacus semper vitae. 
-                                Sed hendrerit enim non justo posuere placerat eget purus mauris...
-                            </p>
-                        </div>
-                        <div class="post__footer">
-                          <div class="post__date">
-                            <p class="post__date-text text"><span class="icon post__icon post__icon_date"></span>on July 19,2016</p>
-                          </div>
-                          <div class="post__button-share-like">
-                            <span class="icon post__icon post__icon_share"></span><span class="icon post__icon post__icon_like"></span>
-                          </div>
-                        </div>
+                      </div> 
                     </article>
-                  </div> 
-                  <div class="main__footer">
-                      <button class="button main__button">Load more</button>
-                    </div>
                 </main>
-              </section>
+                <div class="blog__footer">
+                  <button class="button main__button">Load more</button>
+                </div>
+                </section>
 
-              <section class="page__sidebar">
+                <section class="blog__sidebar">
                 <aside class="sidebar-search">
                   <form class="sidebar-search__form" action="" method="get">
                       <input class="sidebar-search__input"name="s" placeholder="Search" type="search">
@@ -180,44 +145,44 @@
                 
                 <aside class="sidebar-block">
                   <div class="sidebar-block__header">
-                    <h3 class="sidebar-block__heading heading heading_3">Recent Posts</h3>
+                    <h3 class="sidebar-block__heading">Recent Posts</h3>
                   </div>
                   <div class="sidebar-block__content">
-                    <div class="posts">
-                      <div class="posts__item">
-                        <div class="posts__img">
-                          <img src="img/recent_posts/tube.jpg" class="img" alt=""> 
+                    <div class="mini-posts">
+                      <div class="mini-posts__item mini-post">
+                        <div class="mini-post__block-img">
+                          <img src="img/recent_posts/tube.jpg" class="mini-post__img" alt="tube"> 
                         </div>
-                        <div class="posts__text">
-                          <p class="posts__title text">Lorem ipsum dolor sit amet, consec</p>
-                          <p class="posts__date text">July 5, 2016</p>
+                        <div class="mini-post__block-info">
+                          <span class="mini-post__title text">Lorem ipsum dolor sit amet, consec</span>
+                          <span class="mini-post__date text">July 5, 2016</span>
                         </div>
                       </div>
-                      <div class="posts__item">
-                          <div class="posts__img">
-                            <img src="img/recent_posts/table.jpg" class="img" alt=""> 
+                      <div class="mini-posts__item mini-post">
+                          <div class="mini-post__block-img">
+                            <img src="img/recent_posts/table.jpg" class="mini-post__img" alt="table"> 
                           </div>
-                          <div class="posts__text">
-                            <p class="posts__title text">Ut wisi enim ad minim veniam, quis</p>
-                            <p class="posts__date text">July 17, 2016</p>
-                          </div>
-                      </div>
-                      <div class="posts__item">
-                          <div class="posts__img">
-                            <img src="img/recent_posts/red_matches_mini.jpg" class="img" alt=""> 
-                          </div>
-                          <div class="posts__text">
-                            <p class="posts__title text">Aliquip ex ea commodo aliquam erat volutpat</p>
-                            <p class="posts__date text">July 21, 2016</p>
+                          <div class="mini-post__block-info">
+                            <p class="mini-post__title text">Ut wisi enim ad minim veniam, quis</p>
+                            <p class="mini-post__date text">July 17, 2016</p>
                           </div>
                       </div>
-                      <div class="posts__item">
-                          <div class="posts__img">
-                            <img src="img/recent_posts/coffee.jpg" class="img" alt=""> 
+                      <div class="mini-posts__item mini-post">
+                          <div class="mini-post__block-img">
+                            <img src="img/recent_posts/red_matches_mini.jpg" class="mini-post__img" alt="red matches mini"> 
                           </div>
-                          <div class="posts__text">
-                            <p class="posts__title text">Ut wisi enim ad minim veniam, quis</p>
-                            <p class="posts__date text">uly 17, 2016</p>
+                          <div class="mini-post__block-info">
+                            <p class="mini-post__title text">Aliquip ex ea commodo aliquam erat volutpat</p>
+                            <p class="mini-post__date text">July 21, 2016</p>
+                          </div>
+                      </div>
+                      <div class="mini-posts__item mini-post">
+                          <div class="mini-post__block-img">
+                            <img src="img/recent_posts/coffee.jpg" class="mini-post__img" alt="coffee"> 
+                          </div>
+                          <div class="mini-post__block-info">
+                            <p class="mini-post__title text">Ut wisi enim ad minim veniam, quis</p>
+                            <p class="mini-post__date text">uly 17, 2016</p>
                           </div>
                       </div>
                     </div>
@@ -226,60 +191,110 @@
                 
                 <aside class="sidebar-block">
                   <div class="sidebar-block__header">
-                    <h3 class="sidebar-block__heading heading heading_3">Popular tags</h3>
+                    <h3 class="sidebar-block__heading">Popular tags</h3>
                   </div>
                   <div class="sidebar-block__content">
                     <div class="tags">
-                      <button class="button tags__button">construction</button>
-                      <button class="button tags__button">engineering</button>
-                      <button class="button tags__button">architecture</button>
-                      <button class="button tags__button tags__button_active">structural design</button>
-                      <button class="button tags__button">civil engineer</button>
-                      <button class="button tags__button">industrial</button>
-                      <button class="button tags__button">management</button>
-                      <button class="button tags__button">mechanical</button>  
+                      <a href="#" class="tags__item tag">construction</a>
+                      <a href="#" class="tags__item tag">engineering</a>
+                      <a href="#" class="tags__item tag">architecture</a>
+                      <a href="#" class="tags__item tag tag_active">structural design</a>
+                      <a href="#" class="tags__item tag">civil engineer</a>
+                      <a href="#" class="tags__item tag">industrial</a>
+                      <a href="#" class="tags__item tag">management</a>
+                      <a href="#" class="tags__item tag">mechanical</a>  
                     </div>
                   </div>
                 </aside> 
 
                 <aside class="sidebar-block">
                     <div class="sidebar-block__header">
-                      <h3 class="sidebar-block__heading heading heading_3"></h3>>
+                      <h3 class="sidebar-block__heading"></h3>
                     </div>
                     <div class="sidebar-block__content">
                       <div class="insta-list">
-                        <div class="insta-list__item"><a href="#" class="insta-list__link"><img src="img/instagram/folder_insta.jpg" alt="" ></a></div>
-                        <div class="insta-list__item"><a href="#" class="insta-list__link"><img src="img/instagram/card_insta.jpg" alt="" ></a></div>
-                        <div class="insta-list__item"><a href="#" class="insta-list__link"><img src="img/instagram/table_chairs_insta.jpg" alt="" ></a></div>
-                        <div class="insta-list__item"><a href="#" class="insta-list__link"><img src="img/instagram/watch_insta.jpg" alt="" ></a></div>
-                        <div class="insta-list__item"><a href="#" class="insta-list__link"><img src="img/instagram/glasses_insta.jpg" alt="" ></a></div>
-                        <div class="insta-list__item"><a href="#" class="insta-list__link"><img src="img/instagram/watch_2_insta.jpg" alt="" ></a></div>
-                        <div class="insta-list__item"><a href="#" class="insta-list__link"><img src="img/instagram/glasses_insta.jpg" alt="" ></a></div>
-                        <div class="insta-list__item"><a href="#" class="insta-list__link"><img src="img/instagram/can_insta.jpg" alt="" ></a></div>
-                        <div class="insta-list__item"><a href="#" class="insta-list__link"><img src="img/instagram/cup_insta.jpg" alt="" ></a></div>       
+                        <div class="insta-list__item">
+                          <a href="#" class="insta-list__link">
+                            <img class="insta-list__img" src="img/instagram/folder_insta.jpg" alt="folder" >
+                          </a>
+                        </div>
+                        <div class="insta-list__item">
+                          <a href="#" class="insta-list__link">
+                            <img class="insta-list__img" src="img/instagram/card_insta.jpg" alt="card" >
+                          </a>
+                        </div>
+                        <div class="insta-list__item">
+                          <a href="#" class="insta-list__link">
+                            <img class="insta-list__img" src="img/instagram/table_chairs_insta.jpg" alt="table chairs" >
+                          </a>
+                        </div>
+                        <div class="insta-list__item">
+                          <a href="#" class="insta-list__link">
+                            <img class="insta-list__img" src="img/instagram/watch_insta.jpg" alt="watch" >
+                          </a>
+                        </div>
+                        <div class="insta-list__item">
+                          <a href="#" class="insta-list__link">
+                            <img class="insta-list__img" src="img/instagram/glasses_insta.jpg" alt="glasses" >
+                          </a>
+                        </div>
+                        <div class="insta-list__item">
+                          <a href="#" class="insta-list__link">
+                            <img class="insta-list__img" src="img/instagram/watch_2_insta.jpg" alt="womens watch" >
+                          </a>
+                        </div>
+                        <div class="insta-list__item">
+                          <a href="#" class="insta-list__link">
+                            <img class="insta-list__img" src="img/instagram/glasses_insta.jpg" alt="glasses" >
+                          </a>
+                        </div>
+                        <div class="insta-list__item">
+                          <a href="#" class="insta-list__link">
+                            <img class="insta-list__img" src="img/instagram/can_insta.jpg" alt="can" >
+                          </a>
+                        </div>
+                        <div class="insta-list__item">
+                          <a href="#" class="insta-list__link">
+                            <img class="insta-list__img" src="img/instagram/cup_insta.jpg" alt="cup" >
+                          </a>
+                        </div>       
                       </div>
                     </div>
                 </aside>
-               </section>>
-
-            <div class="page__containter">
-                <footer class="footer">
-                  <div class="footer__logo logo">
-                        <img src="img/logo/logo.gif" class="logo__img" alt="">
-                  </div>
-                  <div class="footer__social social">
-                      <div class="social__icon social__icon_facebook"></div>
-                      <div class="social__icon social__icon_twitter"></div>
-                      <div class="social__icon social__icon_linkedin"></div>
-                      <div class="social__icon social__icon_basket"></div>
-                      <div class="social__icon social__icon_pinterest"></div>
-                      <div class="social__icon social__icon_instagram"></div>
-                  </div>  
-                  <div class="footer__copyright copyright">
-                      <p class="copyright__text">© 2016 <span class="copyright__text_black">Mulitix Theme</span> by ThemeForces. All Rights Reserved</p>
-                  </div>
-                </footer>
+                </section>
+              </div>
             </div>
+
+            <footer class="footer">
+            <div class="footer__logo logo">
+              <img src="img/logo/logo.gif" class="logo__img" alt="logo">
+            </div>
+            <div class="footer__social social">
+              <ul class="social__list">
+                <li class="social__item">
+                  <a href="#" class="social__link social__link_facebook"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link social__link_twitter"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link social__link_linkedin"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link social__link_basket"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link social__link_pinterest"></a>
+                </li>
+                <li class="social__item">
+                  <a href="#" class="social__link social__link_instagram"></a>
+                </li>
+              </ul>
+            </div>  
+            <div class="footer__copyright copyright">
+              <div class="copyright__text">© 2016 <span class="copyright__text_black">Mulitix Theme</span> by ThemeForces. All Rights Reserved</div>
+            </div>
+            </footer>
       </div>      
     </body>
 </html>
