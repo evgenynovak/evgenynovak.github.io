@@ -468,7 +468,8 @@ body {
   display: block; }
 
 .portfolio__img {
-  width: 360px; }
+  width: 360px;
+  height: auto; }
 
 .portfolio__cover {
   display: none;
