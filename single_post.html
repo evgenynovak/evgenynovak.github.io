@@ -1,8 +1,10 @@
 <!doctype html>
 <html>
     <head>
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
-        <link href="./css/main.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=PT+Serif:400i,700i" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+      <link href="./css/main.css" rel="stylesheet">
        <title>Верстка. Шаблон Lian.</title>
     </head>
     <body>
@@ -26,48 +28,53 @@
                 </nav>
               </div>   
             </header>
-            
-            <section class="banner">
-              <img src="img/banner/news_about_lian.jpg" class="banner__img" alt="news about lian">
-              <h2 class="banner__title">News about lian</h2>
-              <p class="banner__text">Lates news & insights</p>
+
+            <section class="page__banner banner">
+              <div class="banner__item" style="background-image: url(./img/banner/news_about_lian.jpg)">
+                <div class="banner__content">
+                  <p class="banner__title">News about lian</p>
+                  <p class="banner__text">Lates news & insights</p>
+                </div>
+              </div>
             </section>
 
             <main class="page__containter single-post">
-              <h1 class="single-post__title">I am a Blog Post with an Awesome Image</h1>    
-              <div class="single-post__header-block">
-                <div class="single-post__header-info">
-                  by Jenn Pereira
+              <h1 class="single-post__header-title">I am a Blog Post with an Awesome Image</h1>    
+              <div class="single-post__header-list">
+                <div class="single-post__header-item">
+                  <span class="single-post__header-text">by Jenn Pereira</span>
                 </div>
-                <div class="single-post__header-info">
-                  February 28, 2015
+                <div class="single-post__header-item">
+                  <span class="single-post__header-text">February 28, 2015</span>
                 </div>
-                <div class="single-post__header-info_likes">
-                  324 likes
+                <div class="single-post__header-item">
+                  <span class="single-post__header-text single-post__header-text_likes">324 likes</span>
                 </div>
               </div>
               <img class="single-post__img" src="img/single_post/single_post.jpg" alt="lamps">
-              <p class="single-post__text text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt 
+              <p class="single-post__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt 
                 ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
                 ullamcorper suscipit. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.
               </p>
-              <p class="single-post__text text">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore 
+              <p class="single-post__text">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore 
                 eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum 
                 zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option 
                 congue nihil imperdiet doming id quod mazim placerat facer possim assum.
               </p>
               <blockquote class="single-post__blockquote blockquote">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem 
-                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt. Lorem ipsum 
-                dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.
+                <p class="blockquote__text">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem 
+                  aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt. Lorem ipsum 
+                  dolor sit amet, consectetuer adipiscing elit, sed diam nonummy.
+                </p>
               </blockquote>
-              <h2 class="single-post__title">This is a Heading</h2>
-              <p class="single-postnt__text text">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt 
+              <h2 class="single-post__heading">This is a Heading</h2>
+              <p class="single-post__text">Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt 
                 lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium 
                 lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per 
                 seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.
               </p>
-              <p class="single-post__text text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam 
+              <p class="single-post__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam 
                 erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea 
                 commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu 
                 feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis 
@@ -93,33 +100,54 @@
 
             <footer class="footer">
               <div class="footer__logo logo">
-                <img src="img/logo/logo.gif" class="logo__img" alt="logo">
+                  <a href="index.html" class="logo__link">
+                    <img src="img/logo/logo.gif" class="logo__img" alt="logo">
+                  </a>
               </div>
               <div class="footer__social social">
                 <ul class="social__list">
                   <li class="social__item">
-                    <a href="#" class="social__link social__link_facebook"></a>
+                    <a href="#" class="social__link social__link_facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
                   </li>
                   <li class="social__item">
-                    <a href="#" class="social__link social__link_twitter"></a>
-                 </li>
-                  <li class="social__item">
-                    <a href="#" class="social__link social__link_linkedin"></a>
+                      <a href="#" class="social__link social__link_googleplus">
+                          <i class="fab fa-google-plus-g"></i>
+                      </a>
                   </li>
                   <li class="social__item">
-                    <a href="#" class="social__link social__link_basket"></a>
+                    <a href="#" class="social__link social__link_twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
                   </li>
                   <li class="social__item">
-                    <a href="#" class="social__link social__link_pinterest"></a>
+                    <a href="#" class="social__link social__link_linkedin">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
                   </li>
                   <li class="social__item">
-                    <a href="#" class="social__link social__link_instagram"></a>
+                    <a href="#" class="social__link social__link_basket">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
                   </li>
-                  </ul>
-                </div>  
-                <div class="footer__copyright copyright">
-                  <div class="copyright__text">© 2016 <span class="copyright__text_black">Mulitix Theme</span> by ThemeForces. All Rights Reserved</div>
-                </div>
+                  <li class="social__item">
+                    <a href="#" class="social__link social__link_pinterest">
+                        <i class="fab fa-pinterest-p"></i>
+                    </a>
+                  </li>
+                  <li class="social__item">
+                    <a href="#" class="social__link social__link_instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>  
+              <div class="footer__copyright copyright">
+                <div class="copyright__text">© 2016 
+                  <a href="#" class="copyright__link">Mulitix Theme</a> 
+                by ThemeForces. All Rights Reserved.</div>
+              </div>
             </footer>
       </div>      
     </body>
