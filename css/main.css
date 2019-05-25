@@ -617,6 +617,9 @@ body {
   position: relative;
   width: 360px;
   margin-bottom: 30px; }
+  @media (max-width: 370px) {
+    .portfolio__item {
+      width: 100%; } }
 
 .portfolio__link {
   display: block; }
@@ -625,7 +628,7 @@ body {
 
 .portfolio__img {
   display: block;
-  width: 360px;
+  width: 100%;
   height: auto; }
 
 .portfolio__cover {
@@ -668,10 +671,19 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
+  @media (max-width: 750px) {
+    .blog {
+      flex-direction: column; } }
   .blog__main {
     width: 760px; }
+    @media (max-width: 770px) {
+      .blog__main {
+        width: 100%; } }
   .blog__sidebar {
     width: 360px; }
+    @media (max-width: 370px) {
+      .blog__sidebar {
+        width: 100%; } }
   .blog__sidebar-search {
     padding-bottom: 25px; }
   .blog__sidebar-block {
@@ -687,14 +699,15 @@ body {
   width: 360px;
   background-color: #ffffff;
   margin-bottom: 30px; }
+  @media (max-width: 370px) {
+    .post {
+      width: 100%; } }
   .post__img {
     display: block;
-    width: 360px;
+    width: 100%;
     height: auto;
     -o-object-fit: cover;
        object-fit: cover; }
-  .post__video {
-    width: 360px; }
   .post__block {
     display: flex;
     flex-direction: column;
@@ -935,7 +948,7 @@ body {
 
 .insta-list {
   display: grid;
-  grid-template-columns: 100px 100px 100px;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 100px));
   grid-gap: 5px;
   padding: 25px 25px; }
   .insta-list__img {
